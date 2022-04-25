@@ -30,7 +30,6 @@ module.exports = {
                ]
              }
     },
-    `gatsby-plugin-mdx`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
