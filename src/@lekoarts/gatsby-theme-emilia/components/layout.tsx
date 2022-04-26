@@ -20,6 +20,35 @@ const Layout = ({ children }: LayoutProps) => (
         img: {
           borderStyle: `none`,
         },
+        btn: {
+                  outline: '0',
+                  gridGap: '8px',
+                  alignItems: 'center',
+                  background: 'white',
+                  borderRadius: '4px',
+                  cursor: 'pointer',
+                  display: 'inline-flex',
+                  flexShrink: '0',
+                  fontSize: '16px',
+                  gap: '8px',
+                  justifyContent: 'center',
+                  lineHeight: '1.5',
+                  overflow: 'hidden',
+                  padding: '12px 16px',
+                  textDecoration: 'none',
+                  textOverflow: 'ellipsis',
+                  transition: 'all .14s ease-out',
+                  whiteSpace: 'nowrap',
+                  '&:hover': {
+                      boxShadow: '4px 4px 0 #000',
+                      background:'yellow',
+                      transform: 'translate(-4px,-4px)',
+                  },
+                  '&:focus-visible' :{
+                      outlineOffset: '1px',
+                  },
+                },
+
         pre: {
           fontFamily: `monospace`,
           fontSize: `1em`,
